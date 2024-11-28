@@ -82,6 +82,7 @@ else:
 # Fetch data for the selected stock
 stock_data, hist_data = fetch_stock_data(stock_to_display)
 
+# Display stock data if available
 if stock_data is not None and hist_data is not None and not hist_data.empty:
     st.subheader(f"Stock: {stock_to_display}")
 
@@ -97,6 +98,5 @@ if stock_data is not None and hist_data is not None and not hist_data.empty:
     with col2:
         st.write("### Candlestick Chart")
         plot_candlestick_chart(hist_data, stock_to_display)
-
 else:
     st.warning(f"No data available for {stock_to_display}. It may be invalid or delisted.")
