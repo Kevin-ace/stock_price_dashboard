@@ -4,6 +4,8 @@
 
 The Stock Price Dashboard is an interactive web application built using Streamlit and YFinance that allows users to view real-time stock prices, historical price trends, and candlestick charts. Users can select from a list of popular stocks or search for a stock by ticker symbol to view detailed stock information and visualizations.
 
+You can check its preview on; https://kevin-ace-stock-price-dashboard-app-i7nkd9.streamlit.app/
+
 This project provides a user-friendly interface with:
 
 - Real-time stock data.
